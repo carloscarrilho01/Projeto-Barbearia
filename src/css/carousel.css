@@ -1,8 +1,7 @@
 .container-carousel {
-    margin-top: 5ch;
     border-radius: 8px;
     width: 600px;
-    margin: 5ch auto;
+    margin: 15ch auto;
     box-shadow: 10px 10px 8px -1px rgba(0, 0, 0, 0.16);
 }
 

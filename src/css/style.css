@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+@import url('/src/css/cards.css');
+@import url('/src/css/carousel.css');
+@import url('/src/css/header.css');
+@import url('/src/css/localization.css');
+@import url('/src/css/promotion.css');
+@import url('/src/css/scheduling.css');
 
 * {
     margin: 0;
@@ -6,12 +12,13 @@
     box-sizing: border-box;
     font-family: "TikTok Sans", sans-serif;
 }
+
 body {
     background-color: #111111;
     color: #fff;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -30,3 +37,11 @@ html{
     height: 200px;
 }
 
+.btn-default{
+    background-color: #724d3b;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+}

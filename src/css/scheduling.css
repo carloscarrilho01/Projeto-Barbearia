@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    margin: 10ch auto;
+    width: 100%;
+    margin: 20ch auto;
     flex-direction: column;
     position: relative;
     overflow: hidden;
@@ -23,11 +23,8 @@
     opacity: 0.2;
     z-index: -1;
     border-radius: 5px;
-    
+
 }
-
-
-
 
 #form_scheduling {
     display: flex;
@@ -35,23 +32,32 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    width: 650px;
+    width: 400px;
     height: 450px;
     padding: 20px;
     border-radius: 8px;
     z-index: 1;
-
 }
 
 #form_scheduling input {
-    width: 250px;
-    height: 30px;
-    padding: 10px;
-    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    font-size: 1rem;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid grey;
+}
+
+#form_scheduling input::placeholder {
+    color: #fff;
 }
 
 #form_scheduling button {
     border: none;
-    width: 150px;
+    object-fit: cover;
+    width: 40%;
     height: 30px;
+
 }

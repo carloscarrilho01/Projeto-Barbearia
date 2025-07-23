@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/carousel.css">
-    <link rel="stylesheet" href="src/css/cards.css">
-    <link rel="stylesheet" href="src/css/scheduling.css">
-    <link rel="stylesheet" href="src/css/promotion.css">
-    <link rel="stylesheet" href="src/css/localization.css">
 
     <title>Barber shop</title>
 </head>
@@ -25,11 +22,16 @@
                 <p>Barber</p>
             </div>
 
-            <div class="CTA">
-                <p>"Onde tradição encontra estilo."</p>
-
-                <a href="#" class="btn-default">Agendar</a>
+            <div class="links-socials">
+                <a href="https://www.instagram.com/carrilhodev?igsh=b2d2NjR5ZmIxcjg4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             </div>
+
+            <div class="CTA">
+                <p>"Onde tradição encontra <span>estilo.</span>"</p>
+            </div>
+
+            
         </div>
 
         <nav class="links-menu">
@@ -58,42 +60,51 @@
     </section>
 
     <section id="cards" class="container-cards">
-        <div class="cards">
-            <p class="title-cards">Cabelo</p>
+        <div class="img-cards">
+            <img src="/src/images/corteCabelo.jpg" alt="">
 
-            <p class="card-description">
-                Corte de cabelo personalizado, alinhado ao seu estilo e tipo de fio, garantindo um visual moderno.
-            </p>
-            <a href="#" class="btn-default">R$ 20,00</a>
+            <div class="cards">
+                <p class="title-cards">Cabelo</p>
+
+                <p class="card-description">
+                    Corte de cabelo personalizado, alinhado ao seu estilo e tipo de fio, garantindo um visual moderno.
+                </p>
+                <a href="#" class="btn-default">R$ 20,00</a>
+            </div>
         </div>
 
-        <div class="cards">
-            <p class="title-cards">Barba</p>
-            <p class="card-description">
-                Design de barba com acabamento preciso, hidratação e alinhamento para realçar o seu estilo com
-                elegância.
-            </p>
-            <a href="#" class="btn-default">R$ 20,00</a>
+        <div class="img-cards">
+            <img src="/src/images/corteBarba.jpg" alt="">
+            <div class="cards">
+                <p class="title-cards">Barba</p>
+                <p class="card-description">
+                    Design de barba com acabamento preciso, hidratação e alinhamento para realçar o seu estilo com
+                    elegância.
+                </p>
+                <a href="#" class="btn-default">R$ 20,00</a>
+            </div>
         </div>
 
-        <div class="cards">
-            <p class="title-cards">Cabelo & Barba</p>
+        <div class="img-cards">
+            <img src="/src/images/cabeloEBarba.jpg" alt="">
+            <div class="cards">
+                <p class="title-cards">Cabelo & Barba</p>
 
-            <p class="card-description">
-                Corte de cabelo e barba com estilo, precisão e cuidado. Visual alinhado da cabeça à barba em uma única
-                sessão.
-            </p>
-            <a href="#" class="btn-default">R$ 20,00</a>
+                <p class="card-description">
+                    Corte de cabelo e barba com estilo, precisão e cuidado. Visual alinhado da cabeça à barba em uma
+                    única
+                    sessão.
+                </p>
+                <a href="#" class="btn-default">R$ 20,00</a>
+            </div>
         </div>
     </section>
 
     <section id="scheduling" class="scheduling">
-        <div class="bg-form"></div>
         <form id="form_scheduling">
-
             <h1>Agendamento</h1>
             <input type="text" id="name" placeholder="Seu nome" required>
-            <input type="date" id="date" required>
+            <input class="date" type="date" id="date" required>
             <select id="time" required>
                 <option value="">Selecione um horário</option>
                 <option>09:00</option>
@@ -108,7 +119,7 @@
         </form>
     </section>
 
-    <section id="carousel-promotion">
+    <aside id="carousel-promotion">
         <h1 class="title-promotion">Promoções</h1>
         <div class="swiper-promotion">
             <div class="swiper-wrapper">
@@ -119,7 +130,7 @@
 
             <div class="swiper-pagination"></div>
         </div>
-    </section>
+    </aside>
 
     <section id="localization" class="container-local">
         <h1 class="title-localization">Como Chegar?</h1>
