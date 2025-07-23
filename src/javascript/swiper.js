@@ -14,17 +14,6 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-const swiperpromotion = new Swiper('.swiper-promotion', {
-    loop: true,
-    grabCursor: true,
-    autoplay: {
-        delay: 3000,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true
-    },
-});
 
 
 

@@ -47,7 +47,7 @@
 }
 
 .title-header {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -69,20 +69,24 @@
     color: #724d3b;
 }
 
-
-
 .links-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 90px;
+    width: 700px;
+    margin: 10ch auto;
+    background: rgba(65, 60, 60, 0.23);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
 }
 
 .links-menu a {
     text-decoration: none;
     color: #fff;
-    margin-top: 10ch;
-    padding: 20px 5px;
+    padding: 20px;
     font-size: 1.5rem;
 }
 

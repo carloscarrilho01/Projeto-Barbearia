@@ -1,12 +1,23 @@
 .container-carousel {
     border-radius: 8px;
-    width: 600px;
+    max-width: 800px;
     margin: 15ch auto;
     box-shadow: 10px 10px 8px -1px rgba(0, 0, 0, 0.16);
 }
 
+.swiper {
+    max-width: 800px;
+    height: 500px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 500px;
+}
+
 .swiper-wrapper img {
     border-radius: 8px;
+    width: 800px;
 }
 
 .swiper-button-prev::after,

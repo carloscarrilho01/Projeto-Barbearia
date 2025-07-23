@@ -9,4 +9,10 @@
     border-radius: 8px;
     width: 100%;
     filter: grayscale(0.9);
+    display: flex;
+}
+
+.title-localization{
+    padding-bottom: 20px;
+    font-size: 2rem;
 }
