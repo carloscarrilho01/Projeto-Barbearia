@@ -1,0 +1,79 @@
+.container-main {
+    position: relative;
+
+}
+
+.container-main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(6, 18, 20, 0.2), #111111), url("/src/images/bgForm.jpg");
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    color: #fff;
+}
+
+.title-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-direction: column;
+}
+
+.CTA p {
+    font-size: 2.3rem;
+    margin-top: 7ch;
+}
+
+.btn-default {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5d3e2e;
+    box-shadow: 4px 2px 10px rgb(169,169,169, 0.2);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-default:hover {
+    background-color: #724d3b;
+}
+
+.links-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 5ch;
+    padding: 20px 5px;
+    font-size: 1.5rem;
+}
+
+.links-menu a:hover{
+    color: #724d3b;
+}

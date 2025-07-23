@@ -1,0 +1,57 @@
+.scheduling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 10ch auto;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.scheduling::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/images/bgHome.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: -1;
+    border-radius: 5px;
+    
+}
+
+
+
+
+#form_scheduling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 650px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1;
+
+}
+
+#form_scheduling input {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#form_scheduling button {
+    border: none;
+    width: 150px;
+    height: 30px;
+}

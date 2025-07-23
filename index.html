@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/carousel.css">
+    <link rel="stylesheet" href="src/css/cards.css">
+    <link rel="stylesheet" href="src/css/scheduling.css">
+    <link rel="stylesheet" href="src/css/promotion.css">
+    <link rel="stylesheet" href="src/css/localization.css">
+
+    <title>Barber shop</title>
+</head>
+
+<body>
+
+    <header id="home" class="container-main">
+
+        <div class="content-header">
+            <div class="title-header">
+                <p>Barber</p>
+            </div>
+
+            <div class="CTA">
+                <p>"Onde tradição encontra estilo."</p>
+
+                <a href="#" class="btn-default">Agendar</a>
+            </div>
+        </div>
+
+        <nav class="links-menu">
+            <a href="#localization">Como chegar?</a>
+            <a href="#scheduling">Agendamento</a>
+            <a href="#cards">Cortes</a>
+        </nav>
+    </header>
+
+    <section class="container-carousel">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/src/images/slide1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/src/images/slide2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/src/images/slide3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/src/images/slide4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/src/images/slide5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/src/images/slide6.jpg" alt=""></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section id="cards" class="container-cards">
+        <div class="cards">
+            <p class="title-cards">Cabelo</p>
+
+            <p class="card-description">
+                Corte de cabelo personalizado, alinhado ao seu estilo e tipo de fio, garantindo um visual moderno.
+            </p>
+            <a href="#" class="btn-default">R$ 20,00</a>
+        </div>
+
+        <div class="cards">
+            <p class="title-cards">Barba</p>
+            <p class="card-description">
+                Design de barba com acabamento preciso, hidratação e alinhamento para realçar o seu estilo com
+                elegância.
+            </p>
+            <a href="#" class="btn-default">R$ 20,00</a>
+        </div>
+
+        <div class="cards">
+            <p class="title-cards">Cabelo & Barba</p>
+
+            <p class="card-description">
+                Corte de cabelo e barba com estilo, precisão e cuidado. Visual alinhado da cabeça à barba em uma única
+                sessão.
+            </p>
+            <a href="#" class="btn-default">R$ 20,00</a>
+        </div>
+    </section>
+
+    <section id="scheduling" class="scheduling">
+        <div class="bg-form"></div>
+        <form id="form_scheduling">
+
+            <h1>Agendamento</h1>
+            <input type="text" id="name" placeholder="Seu nome" required>
+            <input type="date" id="date" required>
+            <select id="time" required>
+                <option value="">Selecione um horário</option>
+                <option>09:00</option>
+                <option>09:30</option>
+                <option>10:00</option>
+                <option>10:30</option>
+                <option>11:00</option>
+                <option>11:30</option>
+            </select>
+
+            <button type="submit" class="btn-default">Agendar</button>
+        </form>
+    </section>
+
+    <section id="carousel-promotion">
+        <h1 class="title-promotion">Promoções</h1>
+        <div class="swiper-promotion">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/src/images/postPromo.png" alt=""></div>
+                <div class="swiper-slide"><img src="/src/images/postPromo.png" alt=""></div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="localization" class="container-local">
+        <h1 class="title-localization">Como Chegar?</h1>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.1635000177052!2d-46.881458723918676!3d-23.418460256359236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1ce960c9918b%3A0xab4580a846d1743e!2sR.%20da%20Orbita%20-%20Ch%C3%A1cara%20do%20Solar%20II%20(Fazendinha)%2C%20Santana%20de%20Parna%C3%ADba%20-%20SP%2C%2006531-095!5e0!3m2!1spt-BR!2sbr!4v1753139873742!5m2!1spt-BR!2sbr"
+            width="600" height="450" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <footer>
+        <p>
+            &copy;Carlos Carrilho || todos os direitos reservados.
+        </p>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="src/javascript/swiper.js"></script>
+    <script src="src/javascript/scheduling.js"></script>
+</body>
+
+</html>

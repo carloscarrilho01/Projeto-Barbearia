@@ -1,0 +1,27 @@
+.container-carousel {
+    margin-top: 5ch;
+    border-radius: 8px;
+    width: 600px;
+    margin: 5ch auto;
+    box-shadow: 10px 10px 8px -1px rgba(0, 0, 0, 0.16);
+}
+
+.swiper-wrapper img {
+    border-radius: 8px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #FFE4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 1.3rem;
+}
+
+.swiper-pagination.active {
+    background-color: #FFE4C4;
+}

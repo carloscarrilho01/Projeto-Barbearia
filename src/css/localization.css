@@ -1,0 +1,12 @@
+.container-local {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.map {
+    border-radius: 8px;
+    width: 100%;
+    filter: grayscale(0.9);
+}
